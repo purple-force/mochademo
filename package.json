@@ -1,0 +1,18 @@
+{
+  "name": "mochademo",
+  "version": "1.0.0",
+  "description": "a demo for mocha",
+  "main": "index.js",
+  "author": "cld",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "cov": "yarn add coveralls && cat ./coverage/lcov.info | coveralls"
+  }
+}
