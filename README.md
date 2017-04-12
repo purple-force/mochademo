@@ -1,4 +1,4 @@
-### mocha+chai+travis_ci+coverall demo
+### mocha+chai+travis_ci+coveralls demo
 
 
 [![Build Status](https://travis-ci.org/purple-force/mochademo.svg?branch=master)](https://travis-ci.org/purple-force/mochademo)
